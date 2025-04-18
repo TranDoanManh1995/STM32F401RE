@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2023-04-23T05:12:36.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="L_mR6S3Ohi_Vk3_bctvd" version="21.2.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="864" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="120" as="sourcePoint" />
+            <mxPoint x="220" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-0" value="Begin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-2" target="JFSZ-JANLh_UWQfAnqj6-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-2" value="Deffining two addresses of RCC_CR, RCC_CFGR and a basic address of GPIO A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="142.5" y="160" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-3" target="JFSZ-JANLh_UWQfAnqj6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-3" value="Declaring two points to point RCC_CR and CFGR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-5" target="JFSZ-JANLh_UWQfAnqj6-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-5" value="To enable the HSEON bit of RCC-CR" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="340" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-7" target="JFSZ-JANLh_UWQfAnqj6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-7" value="To wait for the HSERDY bit of RCC_CR is set up to 1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-9" target="JFSZ-JANLh_UWQfAnqj6-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-9" value="To configure the&amp;nbsp; first two bits of RCC_CFGR to 01 to set up HSE clock as system clock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="135" y="520" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-12" target="JFSZ-JANLh_UWQfAnqj6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-12" value="To configure the two bits 21 and 22 of RCC_CFGR at MCO1 mode use HSE clock" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="140" y="610" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-14" target="JFSZ-JANLh_UWQfAnqj6-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-14" value="To configure three bits 24 to 26 of RCC_CFGR at division by 4 mode" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="125" y="710" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-16" target="JFSZ-JANLh_UWQfAnqj6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-16" value="To enable clock pulse of GPIO A" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="810" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-18" target="JFSZ-JANLh_UWQfAnqj6-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-18" value="To configure the eighth bit of GPIOA at alternate mode" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="900" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-20" value="To cofigure the first bit of GPIOA_AFRH at AF0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="1000" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-24" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="1080" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="JFSZ-JANLh_UWQfAnqj6-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="JFSZ-JANLh_UWQfAnqj6-20" target="JFSZ-JANLh_UWQfAnqj6-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="1150" as="sourcePoint" />
+            <mxPoint x="440" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
